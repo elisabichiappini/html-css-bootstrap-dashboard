@@ -24,7 +24,7 @@
     <!--HEADER-->
     <header id="navbar" class="d-flex align-items-center">
         <div class="container-fluid">
-            <div class="row bg-white align-items-center">
+            <div class="row mx-0 bg-white align-items-center">
                 <div class="col-auto">
                     <img src="img/mobile-logo.png" alt="logosmall" class="ec-logosmall img-fluid d-lg-none">
                     <img src="img/logo.svg" alt="logodisplay" class="d-none d-lg-block">
@@ -69,32 +69,42 @@
         <div id="ec-main-container" class="d-flex">
             <!--main left-->
             <div id="ec-sidebar" class="flex-shrink-0">
+                <!--menu della sidebar-->
                 <ul class="list-unstyled text-white d-flex flex-column h-100 p-4">
+                    <!--home-->
                     <li>
                         <a href="#" target="_blank">
                             <i class="fa-solid fa-house"></i>
                             <span class="d-none d-lg-inline">Home</span>
                         </a>
                     </li>
+                    <!--/home-->
+                    <!--Stats-->
                     <li>
                         <a href="#" target="_blank">
                             <i class="fa-solid fa-chart-simple"></i>
                             <span class="d-none d-lg-inline">Stats</span>
                         </a>
                     </li>
+                    <!--/Stats-->
+                    <!--Signals-->
                     <li>
                         <a href="#" target="_blank">
                             <i class="fa-solid fa-signal"></i>
                             <span class="d-none d-lg-inline">Signals</span>
                         </a>
                     </li>
+                    <!--/Signals-->
+                    <!--Admin-->
                     <li class="mt-auto">
                         <a href="#" target="_blank">
                             <i class="fa-solid fa-gear"></i>
                             <span class="d-none d-lg-inline">Admin</span>
                         </a>
                     </li>
+                    <!--/Admin-->
                 </ul>
+                <!--menu della sidebar-->
             </div>
             <!--/main left-->
 
@@ -102,68 +112,194 @@
             <div id="ec-main" class="container-fluid p-0 flex-grow-1">
                 <!--main right top-->
                 <div id="ec-main-top" class="p-2">
-                    <div class="row">
-                        <div class="col-12 col-md-4 col-lg-3 order-md-3">
+                    <!--section nuovo studente-->
+                    <div class="row mx-0">
+                        <div class="col-12 px-0 col-md-4 col-lg-3 order-md-3">
                             <div class="d-flex align-items-center">
                                 <h5 class="me-3">Nuovo Studente</h5>
                                 <button class="ec-btn btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                             </div>
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <!--/ section nuovo studente-->
+                            <!--overlay press section nuovo studente-->
+                            <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
+                                <!--contents form di offcanvas-->
                                 <div class="offcanvas-body">
-                                ...
+                                    <!--input nome e cognome-->
+                                    <div class="mb-3">
+                                        <div class="d-flex gap-4">
+                                            <!--input nome-->
+                                            <div class="w-50">
+                                                <label for="name" class="form-label">Nome</label>
+                                                <input type="text" class="form-control" id="name">
+                                            </div>
+                                            <!--/input nome-->
+                                            <!--input cognome-->
+                                            <div class="w-50">
+                                                <label for="surname" class="form-label">Cognome</label>
+                                                <input type="text" class="form-control" id="surname">
+                                            </div>
+                                            <!--input cognome-->
+                                        </div>
+                                    </div>
+                                    <!--/input nome e cognome-->
+                                    <!--input email-->
+                                    <div class="mb-3">
+                                        <div class="d-flex gap-4">
+                                            <div class="w-50">
+                                                <label for="email" class="form-label">Email</label>
+                                                <div class="input-group flex-nowrap">
+                                                    <span class="input-group-text" id="addon-wrapping">@</span>
+                                                    <input type="email" class="form-control" aria-label="Username" aria-describedby="addon-wrapping" id="email">
+                                                </div>
+                                            </div>
+                                            <div class="w-50">
+                                                <label for="password" class="form-label">Password</label>
+                                                <input type="password" id="password" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/input email-->
+                                    <!--input address-->
+                                    <div class="mb-3">
+                                        <label for="address" class="form-label">Indirizzo</label>
+                                        <input type="text" class="form-control" id="address">
+                                    </div>
+                                    <!--/input address-->
+                                    <!--input town, state e cap-->
+                                    <div class="mb-3">
+                                        <div class="d-flex gap-4">
+                                            <!--input town-->
+                                            <div class="w-50">
+                                                <label for="town" class="form-label">Città</label>
+                                                <input type="text" class="form-control" id="town">
+                                            </div>
+                                            <!--/input town-->
+                                            <!--input State-->
+                                            <div class="ec-w-30">
+                                                <label for="exampleFormControlInput1" class="form-label">Stato</label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Scegli...</option>
+                                                    <option value="1">Italia</option>
+                                                    <option value="2">Francia</option>
+                                                    <option value="3">Spagna</option>
+                                                </select>
+                                            </div>
+                                            <!--/input State-->
+                                            <!--input CAP-->
+                                            <div class="ec-w-20">
+                                                <label for="cap" class="form-label">CAP</label>
+                                                <input type="text" class="form-control" id="cap">
+                                            </div>
+                                            <!--input CAP-->
+                                        </div>
+                                    </div>
+                                    <!--input town, state e cap-->
+                                    <!--input foto-->
+                                    <div class="mb-3">
+                                        <label for="filefoto" class="form-label">Foto</label>
+                                        <input class="form-control" type="file" id="filefoto">
+                                    </div>
+                                    <!--/input foto-->
+                                    <!--input check-->
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                            Seleziona per proseguire
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!--/input check-->
+                                    <!--bottone save-->
+                                    <button type="button" class="btn btn-primary">Salva</button>
+                                    <!--/bottone save-->
+                                    <!--bottone svuota-->
+                                    <button type="button" class="btn btn-warning">Svuota</button>
+                                    <!--/bottone svuota-->
                                 </div>
+                                <!--contents form di offcanvas-->
                             </div>
+                            <!--/overlay press section nuovo studente-->
                         </div>
-                        <div class="col-12 col-md-4 col-lg-6">
+                        <!--section nuovo studente-->
+                        <!--section boolean badge-->
+                        <div class="col-12 px-0 col-md-4 col-lg-6">
                             <h1 class="d-inline">Boolean</h1>
+                            <!--list badge-->
+                            <!--badge 1-->
                             <span class="ec-badge badge rounded-pill">Piano blaze</span>
+                            <!--badge 1-->
+                            <!--badge 2-3-4-5-+-->
                             <div>
                                 <nav style="--bs-breadcrumb-divider: '»';" aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="#"><span class="ec-badge badge rounded-pill">3 app</span></a></li>
-                                        <li class="ec-breadcrumb breadcrumb-item active ps-0 ps-1" aria-current="page"><a href="#"><span class="ec-badge badge rounded-pill d-none d-lg-inline">Boolean mobile app</span></a></li>
+                                        <!--badge 2-->
+                                        <li class="breadcrumb-item">
+                                            <a href="#">
+                                                <span class="ec-badge badge rounded-pill">3 app</span>
+                                            </a>
+                                        </li>
+                                        <!--/badge 2-->
+                                        <!--badge 3-->
+                                        <li class="ec-breadcrumb breadcrumb-item active ps-0 ps-1" aria-current="page">
+                                            <a href="#">
+                                                <span class="ec-badge badge rounded-pill d-none d-lg-inline">Boolean mobile app</span>
+                                            </a>
+                                        </li>
+                                        <!--/badge 3-->
+                                        <!--badge 4-->
                                         <li>
                                             <a href="#">
                                                 <span class="ec-badge badge rounded-pill d-none d-lg-inline">Boolean web app</span>
                                             </a>
                                         </li>
+                                        <!--/badge 4-->
+                                        <!--badge 5-->
                                         <li>
                                             <a href="#">
                                                 <span class="ec-badge badge rounded-pill d-none d-lg-inline">Boolean blog app</span>
                                             </a>
                                         </li>
+                                        <!--/badge 5-->
+                                        <!--badge +-->
                                         <li>
                                             <a href="#">
                                                 <span class="ec-badge badge rounded-pill d-lg-none">+</span>
                                             </a>
                                         </li>
+                                        <!--/badge +-->
                                     </ol>
                                 </nav>
                             </div>
+                            <!--badge 2-3-4-->
                         </div>
-                        <div class="col-12 col-md-4 col-lg-3">
-                            <h6>Studenti online negli ultimi 30 minuti</6>
+                        <!--section boolean badge-->
+                        <!--section studenti online-->
+                        <div class="col-12 px-0 col-md-4 col-lg-3">
+                            <h6>Studenti online negli ultimi 30 minuti</h6>
                             <h5>125</h5>
                         </div>
+                        <!--/section studenti online-->
                     </div>
+                    <!--/section nuovo studente-->
                 </div>
                 <!--/main right top-->
                 <!--main right bottom-->
                 <div id="ec-main-bottom" class="d-flex flex-column flex-lg-row">
                     <div id="ec-left-main" class="p-2">
-                        <div class="row">
-                            <div class="col-12">section I1</div>
-                            <div class="col-12">section I2</div>
+                        <div class="row mx-0">
+                            <div class="col-12 px-0">section I1</div>
+                            <div class="col-12 px-0">section I2</div>
                         </div> 
                     </div>
                     <div id="ec-right-main" class="flex-grow-1 p-2">
-                        <div class="row">
-                            <div class="col-12">section II1</div>
-                            <div class="col-12">section II2</div>
+                        <div class="row mx-0">
+                            <div class="col-12 px-0">section II1</div>
+                            <div class="col-12 px-0">section II2</div>
                         </div>
                     </div>
                 </div>
