@@ -2,3 +2,6 @@
     COMMON
 ******************************************/
 
+body {
+    background-color: var(--ec-bg-header);
+}

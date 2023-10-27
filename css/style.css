@@ -27,7 +27,7 @@
 -------------------------------------------> MAIN
 */
 
-.ec-main-container {
+#ec-main-container {
     height: calc(100vh - var(--ec-size-header));
     display: flex;
 }
@@ -36,13 +36,13 @@
 ------------------------------------------- main left
 */
 
-.ec-sidebar {
+#ec-sidebar {
     width: var(--ec-size-header);
 }
 
 @media screen and (min-width: 1400px) {
     
-    .ec-main-container .ec-sidebar {
+    #ec-main-container #ec-sidebar {
         width: 150px;
     }
  }
