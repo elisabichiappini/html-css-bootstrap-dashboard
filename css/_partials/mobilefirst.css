@@ -49,7 +49,6 @@
 */
 
 #ec-sidebar {
-    width: var(--ec-size-header);
     background-color: var(--ec-bg-sidebar);
     background-image: url('/img/sidebar-bg.png ');
 }
