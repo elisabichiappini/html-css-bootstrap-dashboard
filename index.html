@@ -18,7 +18,7 @@
     <!--/CSS Style-->
 </head>
 
-<body class="debug">
+<body>
     <!--HEADER-->
     <header id="navbar" class="d-flex align-items-center">
         <div class="container-fluid">
@@ -27,8 +27,36 @@
                     <img src="img/mobile-logo.png" alt="logosmall" class="ec-logosmall img-fluid d-lg-none">
                     <img src="img/logo.svg" alt="logodisplay" class="d-none d-lg-block">
                 </div>
-                <div class="col">input</div>
-                <div class="col-auto">link</div>
+                <div class="col">
+                    <div class="ec-input-group input-group">
+                        <span class="input-group-text p-2" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control ps-0 shadow-none" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ul class="d-flex align-items-center list-unstyled gap-2 m-0">
+                        <li class="d-none d-lg-block">
+                            <a href="#" target="_blank">
+                                <i class="fa-solid fa-list"></i>
+                            </a>
+                        </li>
+                        <li class="d-none d-lg-block">
+                            <a href="#" target="_blank">
+                                <i class="fa-solid fa-circle-question"></i>
+                            </a>
+                        </li>
+                        <li class="d-none d-lg-block">
+                            <a href="#" target="_blank">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank class">
+                                <i class="fa-solid fa-bell"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>

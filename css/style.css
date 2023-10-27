@@ -21,6 +21,16 @@
 .ec-logosmall {
     max-width: 50px;
 }
+
+.ec-input-group > * {
+    background-color: var(--ec-bg-navbar);
+    border-color: var(--ec-bg-navbar);
+}
+
+.ec-input-group input:focus {
+    background-color: var(--ec-bg-navbar);
+    border: 1px solid var(--ec-bg-navbar);
+}
 /*
 -------------------------------------------> /HEADER
 */

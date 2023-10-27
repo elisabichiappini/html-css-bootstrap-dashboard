@@ -5,3 +5,7 @@
 body {
     background-color: var(--ec-bg-header);
 }
+
+a {
+    all:unset;
+}
