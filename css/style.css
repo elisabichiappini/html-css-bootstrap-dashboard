@@ -18,6 +18,9 @@
     height: var(--ec-size-header);
 }
 
+.ec-logosmall {
+    max-width: 50px;
+}
 /*
 -------------------------------------------> /HEADER
 */
