@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--CDN FontAwesome-->
     <!--FontGoogle: Roboto-->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <!--FontGoogle: Roboto-->
     <!--CSS Style-->
     <link rel="stylesheet" href="css/style.css">
@@ -64,12 +66,35 @@
 
     <!--MAIN-->
     <main>
-        <div id="ec-main-container">
+        <div id="ec-main-container" class="d-flex">
             <!--main left-->
             <div id="ec-sidebar" class="flex-shrink-0">
-                <div>i S</div>
-                <div>i S</div>
-                <div>i A</div>
+                <ul class="list-unstyled text-white d-flex flex-column h-100 align-items-center">
+                    <li>
+                        <a href="#" target="_blank">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="d-none d-lg-inline">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <span class="d-none d-lg-inline">Stats</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <i class="fa-solid fa-signal"></i>
+                            <span class="d-none d-lg-inline">Signals</span>
+                        </a>
+                    </li>
+                    <li class="mt-auto">
+                        <a href="#" target="_blank">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="d-none d-lg-inline">Admin</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
             <!--/main left-->
 
