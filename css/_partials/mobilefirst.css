@@ -1,0 +1,72 @@
+/******************************************
+    -ec-- CSS
+******************************************/
+
+/*
+-------------------------------------------> HEADER
+*/
+
+#navbar {
+    height: var(--ec-size-header);
+}
+
+.ec-logosmall {
+    max-width: 50px;
+}
+
+.ec-input-group > * {
+    background-color: var(--ec-bg-navbar);
+    border-color: var(--ec-bg-navbar);
+}
+
+.ec-input-group input:focus {
+    background-color: var(--ec-bg-navbar);
+    border: 1px solid var(--ec-bg-navbar);
+}
+
+#navbar .row .col-auto ul > li {
+    color: #5b5858;
+}
+
+#navbar .ec-btn {
+    color: #ff8f00;
+}
+/*
+-------------------------------------------> /HEADER
+*/
+
+
+/*
+-------------------------------------------> MAIN
+*/
+
+#ec-main-container {
+    height: calc(100vh - var(--ec-size-header));
+    display: flex;
+}
+
+/*
+------------------------------------------- main left
+*/
+
+#ec-sidebar {
+    width: var(--ec-size-header);
+    background-color: var(--ec-bg-sidebar);
+    background-image: url('/img/sidebar-bg.png ');
+}
+
+/*
+------------------------------------------- main right
+*/
+
+/*
+------------------------------------------- main right top
+*/
+
+/*
+------------------------------------------- main right bottom
+*/
+
+/*
+-------------------------------------------> MAIN
+*/
