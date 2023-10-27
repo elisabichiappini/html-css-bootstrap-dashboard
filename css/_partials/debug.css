@@ -1,0 +1,66 @@
+
+
+/******************************************
+    DEBUG
+******************************************/
+
+/*
+-------------------------------------------> HEADER
+*/
+.debug #navbar {
+    background-color: rgb(221, 49, 138);
+    border: 1px dashed rgb(255, 255, 255);
+}
+
+/*
+-------------------------------------------> /HEADER
+*/
+
+
+
+
+
+
+
+
+/*
+-------------------------------------------> MAIN
+*/
+.debug .ec-main-container{
+    background-color: rgb(51, 106, 223);
+    border: 1px dashed black;
+}
+
+/*
+------------------------------------------- main left
+*/
+.debug .ec-sidebar {
+    background-color:rgb(240, 146, 83);
+    border: 1px dashed rgb(255, 255, 255)
+}
+
+/*
+------------------------------------------- main right
+*/
+.debug .ec-main {
+    background-color: green;
+    border: 1px dashed rgb(255, 255, 255)
+}
+
+/*
+------------------------------------------- main right top
+*/
+.debug .ec-main-top {
+    background-color:  rgb(60, 216, 151);
+}
+
+/*
+------------------------------------------- main right bottom
+*/
+.debug .ec-main-bottom {
+    background-color: rgb(129, 229, 106);
+}
+
+/*
+-------------------------------------------> /MAIN
+*/

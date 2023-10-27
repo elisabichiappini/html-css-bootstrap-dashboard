@@ -1,0 +1,64 @@
+/******************************************
+    IMPORT
+******************************************/
+
+@import '_partials/variables.css';
+@import '_partials/debug.css';
+@import '_partials/common.css';
+
+/******************************************
+    -ec-- CSS
+******************************************/
+
+/*
+-------------------------------------------> HEADER
+*/
+
+#navbar {
+    height: var(--ec-size-header);
+}
+
+/*
+-------------------------------------------> /HEADER
+*/
+
+
+/*
+-------------------------------------------> MAIN
+*/
+
+.ec-main-container {
+    height: calc(100vh - var(--ec-size-header));
+    display: flex;
+}
+
+/*
+------------------------------------------- main left
+*/
+
+.ec-sidebar {
+    width: var(--ec-size-header);
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .ec-main-container .ec-sidebar {
+        width: 150px;
+    }
+ }
+/*
+------------------------------------------- main right
+*/
+
+/*
+------------------------------------------- main right top
+*/
+
+/*
+------------------------------------------- main right bottom
+*/
+
+/*
+-------------------------------------------> MAIN
+*/
+
