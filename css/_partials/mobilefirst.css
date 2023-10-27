@@ -31,6 +31,11 @@ STYLE CSS
 #navbar .ec-btn {
     color: #ff8f00;
 }
+
+#ec-main-top {
+    background-color: var(--ec-bg-main);
+    color: white;
+}
 /*
 -------------------------------------------> /HEADER
 */
@@ -60,7 +65,20 @@ STYLE CSS
 /*
 ------------------------------------------- main right top
 */
+.ec-btn {
+    margin: 4px;
+    border: 1px solid white;
+}
 
+.ec-badge {
+    background-color: var(--ec-bg-badge);
+    display: inline-block;
+}
+
+.breadcrumb-item.breadcrumb-item::before {
+    padding: 0 8px;
+
+}
 /*
 ------------------------------------------- main right bottom
 */
