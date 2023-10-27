@@ -31,6 +31,14 @@
     background-color: var(--ec-bg-navbar);
     border: 1px solid var(--ec-bg-navbar);
 }
+
+#navbar .row .col-auto ul > li {
+    color: #5b5858;
+}
+
+#navbar .ec-btn {
+    color: #ff8f00;
+}
 /*
 -------------------------------------------> /HEADER
 */
