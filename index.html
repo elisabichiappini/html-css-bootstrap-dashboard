@@ -20,7 +20,7 @@
     <!--/CSS Style-->
 </head>
 
-<body>
+<body class="debug">
     <!--HEADER-->
     <header id="navbar" class="d-flex align-items-center">
         <div class="container-fluid">
@@ -99,9 +99,9 @@
             <!--/main left-->
 
             <!--main right-->
-            <div id="ec-main" class="flex-grow-1">
+            <div id="ec-main" class="container-fluid flex-grow-1">
                 <!--main right top-->
-                <div id="ec-main-top" class="container-fluid">
+                <div id="ec-main-top">
                     <div class="row">
                         <div class="col-12 col-lg-6 order-lg-3">section 1</div>
                         <div class="col-12 col-lg-3">section 2</div>
@@ -110,11 +110,19 @@
                 </div>
                 <!--/main right top-->
                 <!--main right bottom-->
-                <div id="ec-main-bottom">
-                    <div>section I1</div>
-                    <div>section I2</div>
-                    <div>section II1</div>
-                    <div>section II2</div>
+                <div id="ec-main-bottom" class="d-flex flex-column flex-lg-row">
+                    <div id="ec-left-main">
+                        <div class="row">
+                            <div class="col-12">section I1</div>
+                            <div class="col-12">section I2</div>
+                        </div> 
+                    </div>
+                    <div id="ec-right-main" class="flex-grow-1">
+                        <div class="row">
+                            <div class="col-12">section II1</div>
+                            <div class="col-12">section II2</div>
+                        </div>
+                    </div>
                 </div>
                 <!--/main right bottom-->
             </div>

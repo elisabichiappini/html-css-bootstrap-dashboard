@@ -36,7 +36,7 @@
 */
 .debug #ec-sidebar {
     background-color:rgb(240, 146, 83);
-    border: 1px dashed rgb(255, 255, 255)
+    border: 1px dashed rgb(255, 255, 255);
 }
 
 /*
@@ -44,7 +44,7 @@
 */
 .debug #ec-main {
     background-color: green;
-    border: 1px dashed rgb(255, 255, 255)
+    border: 1px dashed rgb(255, 255, 255);
 }
 
 /*
@@ -52,6 +52,7 @@
 */
 .debug #ec-main-top {
     background-color:  rgb(60, 216, 151);
+    border: 1px dashed rgb(0, 0, 0);
 }
 
 /*
@@ -59,8 +60,19 @@
 */
 .debug #ec-main-bottom {
     background-color: rgb(129, 229, 106);
+    border: 1px dashed rgb(0, 0, 0);
 }
 
+.debug #ec-left-main {
+    background-color: rgb(133, 133, 250);
+    border: 1px dashed rgb(255, 255, 255);
+    
+}
+
+.debug #ec-right-main {
+    background-color: rgb(82, 82, 225);
+    border: 1px dashed rgb(255, 255, 255);
+}
 /*
 -------------------------------------------> /MAIN
 */
