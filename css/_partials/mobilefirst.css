@@ -28,14 +28,17 @@ STYLE CSS
     color: #5b5858;
 }
 
-#navbar .ec-btn {
+#navbar .ec-bell {
     color: #ff8f00;
 }
+
+
 
 #ec-main-top {
     background-color: var(--ec-bg-main);
     color: white;
 }
+
 /*
 -------------------------------------------> /HEADER
 */

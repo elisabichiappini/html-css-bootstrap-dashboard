@@ -22,77 +22,57 @@
 <body>
 
 
-
-
-    <div class="mb-3">
-        <div class="d-flex gap-4">
-            <div class="w-50">
-                <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                <input type="email" class="form-control">
-            </div>
-            <div class="w-50">
-                <label for="exampleFormControlInput1" class="form-label">Cognome</label>
-                <input type="email" class="form-control">
-            </div>
-        </div>
-    </div>
-    <div class="mb-3">
-        <div class="d-flex gap-4">
-            <div class="w-50">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <div class="input-group flex-nowrap">
-                    <span class="input-group-text" id="addon-wrapping">@</span>
-                    <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+    <header id="navbar" class="d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row mx-0 bg-white align-items-center">
+                <div class="col-auto">
+                    <img src="img/mobile-logo.png" alt="logosmall" class="ec-logosmall img-fluid d-lg-none">
+                    <img src="img/logo.svg" alt="logodisplay" class="d-none d-lg-block">
+                </div>
+                <div class="col">
+                    <div class="ec-input-group input-group">
+                        <span class="input-group-text p-2" id="basic-addon1">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <input type="text" class="form-control ps-0 shadow-none" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ul class="d-flex align-items-center list-unstyled gap-4 m-0">
+                        <li class="d-none d-lg-block">
+                            <a href="#" target="_blank">
+                                <i class="fa-solid fa-list"></i>
+                            </a>
+                        </li>
+                        <li class="d-none d-lg-block">
+                            <a href="#" target="_blank">
+                                <i class="fa-solid fa-circle-question"></i>
+                            </a>
+                        </li>
+                        <li class="d-none d-lg-block">
+                            <a href="#" target="_blank">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="btn-group dropstart">
+                                <a href="#" role="button" class="btn btn-secondary bg-white border-white" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell ec-bell"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item w-auto" href="#">Menu item</a></li>
+                                    <li><a class="dropdown-item w-auto" href="#">Menu item</a></li>
+                                    <li><a class="dropdown-item w-auto" href="#">Menu item</a></li>
+                                </ul>
+                            </div>               
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="w-50">
-                <label for="exampleFormControlInput1" class="form-label">Password</label>
-                <input type="email" class="form-control">
-            </div>
         </div>
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Indirizzo</label>
-        <input type="email" class="form-control">
-    </div>
-    <div class="mb-3">
-        <div class="d-flex gap-4">
-            <div class="w-50">
-                <label for="exampleFormControlInput1" class="form-label">Città</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1">
-            </div>
-            <div class="ec-w-30">
-                <label for="exampleFormControlInput1" class="form-label">Stato</label>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Scegli...</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
-            </div>
-            <div class="ec-w-20">
-                <label for="exampleFormControlInput1" class="form-label">CAP</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1">
-            </div>
-        </div>
-    </div>
-    <div class="mb-3">
-        <label for="formFile" class="form-label">Foto</label>
-        <input class="form-control" type="file" id="formFile">
-    </div>
-    <div class="mb-3">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-            Seleziona per proseguire
-            </label>
-        </div>
-    </div>
-    <button type="button" class="btn btn-primary">Salva</button>
-    <button type="button" class="btn btn-warning">Svuota</button>
+    </header>
+
     
-
-
 
 
 
