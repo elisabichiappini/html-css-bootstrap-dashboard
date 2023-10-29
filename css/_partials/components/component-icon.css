@@ -1,0 +1,13 @@
+/******************************************
+    COMPONENT-BTN
+******************************************/
+
+button.ec-component-btn {
+    all: unset;
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--ec-color-icon);
+    border-radius: 4px;
+    vertical-align: middle;
+    color: var(--ec-color-icon);
+}

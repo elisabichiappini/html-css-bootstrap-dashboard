@@ -48,6 +48,7 @@ STYLE CSS
 -------------------------------------------> MAIN
 */
 
+
 #ec-main-container {
     height: calc(100vh - var(--ec-size-header));
 }

@@ -6,5 +6,7 @@
 @import '_partials/variables.css';
 @import '_partials/common.css';
 @import '_partials/mobilefirst.css';
+@import '../css/_partials/components/component-icon.css';
+@import '../css/_partials/components/component-class.css';
 @import '_partials/responsive.css';
 

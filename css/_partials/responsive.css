@@ -11,9 +11,10 @@
         width: 150px;
     }
 
-    #ec-left-main {
-        width: calc((100% / 3) * 2);
+    #ec-right-main {
+        width: calc(100% / 3);
     }
+
  }
 
  /*

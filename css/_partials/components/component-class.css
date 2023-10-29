@@ -1,0 +1,14 @@
+.ec-component-class {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ec-component-class .ec-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
