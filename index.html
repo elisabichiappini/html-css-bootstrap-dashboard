@@ -22,52 +22,88 @@
 
 <body>
     <!--HEADER-->
-    <header id="navbar" class="d-flex align-items-center">
+    <header id="ec-navbar" class="d-flex align-items-center">
         <div class="container-fluid">
             <div class="row mx-0 bg-white align-items-center">
+                <!--Add nav bar section left-->
                 <div class="col-auto">
+                    <!--Add logo mobile-->
                     <img src="img/mobile-logo.png" alt="logosmall" class="ec-logosmall img-fluid d-lg-none">
+                    <!--/Add logo mobile-->
+                    <!--Add logo display-->
                     <img src="img/logo.svg" alt="logodisplay" class="d-none d-lg-block">
+                    <!--/Add logo display-->
                 </div>
+                <!--/Add nav bar section left-->
+                <!--Add nav bar section center-->
                 <div class="col">
+                    <!--Input bar search-->
                     <div class="ec-input-group input-group">
                         <span class="input-group-text p-2" id="basic-addon1">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </span>
                         <input type="text" class="form-control ps-0 shadow-none" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="search" aria-describedby="basic-addon1">
                     </div>
+                    <!--/Input bar search-->
                 </div>
+                <!--/Add nav bar section center-->
+                <!--Add nav bar section right-->
                 <div class="col-auto">
+                    <!--Add list icon-->
                     <ul class="d-flex align-items-center list-unstyled gap-4 m-0">
+                        <!--Icon list-->
                         <li class="d-none d-lg-block">
                             <a href="#" target="_blank">
                                 <i class="fa-solid fa-list"></i>
                             </a>
                         </li>
+                        <!--/Icon list-->
+                        <!--Icon question-->
                         <li class="d-none d-lg-block">
                             <a href="#" target="_blank">
                                 <i class="fa-solid fa-circle-question"></i>
                             </a>
                         </li>
+                        <!--/Icon question-->
+                        <!--Icon setting-->
                         <li class="d-none d-lg-block">
                             <a href="#" target="_blank">
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                             </a>
                         </li>
+                        <!--/Icon setting-->
+                        <!--Icon bell-->
                         <li>
                             <div class="btn-group dropstart">
                                 <a href="#" role="button" class="btn btn-secondary bg-white border-white" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="fa-solid fa-bell ec-bell"></i>
                                 </a>
+                                <!--Icon bell:menu-->
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item w-auto" href="#">Menu item</a></li>
-                                    <li><a class="dropdown-item w-auto" href="#">Menu item</a></li>
-                                    <li><a class="dropdown-item w-auto" href="#">Menu item</a></li>
+                                    <!--Menu: 1 link-->
+                                    <li>
+                                        <a class="dropdown-item w-auto" href="#">Profilo</a>
+                                    </li>
+                                    <!--/Menu: 1 link-->
+                                    <!--Menu: 2 link-->
+                                    <li>
+                                        <a class="dropdown-item w-auto" href="#">Fatturazione</a>
+                                    </li>
+                                    <!--/Menu: 2 link-->
+                                    <!--Menu: 3 link-->
+                                    <li>
+                                        <a class="dropdown-item w-auto" href="#">Logout</a>
+                                    </li>
+                                    <!--/Menu: 3 link-->
                                 </ul>
+                                <!--/Icon bell:menu-->
                             </div>               
                         </li>
+                        <!--Icon bell-->
                     </ul>
+                    <!--/Add list icon-->
                 </div>
+                <!--/Add nav bar section right-->
             </div>
         </div>
     </header>
@@ -78,8 +114,8 @@
         <div id="ec-main-container" class="d-flex">
             <!--Main left-->
             <div id="ec-sidebar" class="flex-shrink-0">
-                <!--Menu della sidebar-->
-                <ul class="list-unstyled text-white d-flex flex-column h-100 p-4">
+                <!--Sidebar: menu-->
+                <ul class="list-unstyled text-white d-flex flex-column h-100 p-4 gap-2 gap-lg-3">
                     <!--Home-->
                     <li>
                         <a href="#" target="_blank">
@@ -113,7 +149,7 @@
                     </li>
                     <!--/Admin-->
                 </ul>
-                <!--/Menu della sidebar-->
+                <!--/Sidebar: menu-->
             </div>
             <!--/Main left-->
 
@@ -297,12 +333,15 @@
                 <!--/main right top-->
                 <!--main right bottom-->
                 <div id="ec-main-bottom" class="d-flex flex-column flex-lg-row">
+                    <!--First column-->
                     <div id="ec-left-main" class="p-2">
                         <div class="row mx-0">
                             <div class="col-12 px-0">
+                                <!--Card 1I-->
                                 <div class="card mb-3">
                                     <h5 class="card-header">Prossime classi</h5>
                                     <div class="card-body">
+                                        <!--Contents: Table-->
                                         <table class="table">
                                             <thead>
                                                 <tr>
@@ -496,13 +535,17 @@
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        <!--/Contents: Table-->
                                     </div>
                                   </div>
                             </div>
+                            <!--/Card 1I-->
+                            <!--Card 1II-->
                             <div class="col-12 px-0">
                                 <div class="card">
                                     <h5 class="card-header">F.A.Q.</h5>
                                     <div class="card-body">
+                                        <!--Contents: Accordion-->
                                         <div class="accordion accordion-flush" id="accordionFlushExample">
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header">
@@ -535,17 +578,23 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <!--/Contents: Accordion-->
                                     </div>
                                 </div>
                             </div>
+                            <!--Card 1II-->
                         </div> 
                     </div>
+                    <!--/First column-->
+                    <!--Second column-->
                     <div id="ec-right-main" class="p-2">
                         <div class="row mx-0">
+                            <!--Card 2I-->
                             <div class="col-12 px-0">
                                 <div class="card mb-3">
                                     <h5 class="card-header">Todo</h5>
                                     <div class="card-body">
+                                        <!--Contents: List group checkbox-->
                                         <ul class="list-group">
                                             <li class="list-group-item">
                                                 <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
@@ -560,12 +609,16 @@
                                                 <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
                                             </li>
                                         </ul>
+                                        <!--/Contents: List group checkbox-->
                                     </div>
                                 </div>
                             </div>
+                            <!--/Card 2I-->
+                            <!--Card 2II-->
                             <div class="col-12 px-0">
                                 <div class="card">
                                     <div class="card-body">
+                                        <!--Contents: List group + image-->
                                         <div class="card">
                                             <img src="img/stats.jpeg" class="card-img-top" alt="...">
                                             <div class="card-body">
@@ -581,11 +634,14 @@
                                                 <a href="#" class="card-link">Visualizza report approfondito</a>
                                             </div>
                                         </div>
+                                        <!--Contents: List group + image-->
                                     </div>
                                 </div>
                             </div>
+                            <!--Card 2II-->
                         </div>
                     </div>
+                    <!--/Second column-->
                 </div>
                 <!--/main right bottom-->
             </div>
