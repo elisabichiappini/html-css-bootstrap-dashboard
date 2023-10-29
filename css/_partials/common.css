@@ -1,11 +1,8 @@
 /******************************************
     COMMON
 ******************************************/
+
 body {
     background-color: var(--ec-bg-body);
     font-size: 'Roboto', sans-serif;;
-}
-
-a {
-    all:unset;
 }

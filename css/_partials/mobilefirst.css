@@ -2,11 +2,12 @@
 STYLE CSS
 ******************************************/
 
+
 /*
 -------------------------------------------> HEADER
 */
 
-#navbar {
+#ec-navbar {
     height: var(--ec-size-header);
 }
 
@@ -24,19 +25,16 @@ STYLE CSS
     border: 1px solid var(--ec-bg-navbar);
 }
 
-#navbar .row .col-auto ul > li {
+#ec-navbar .row .col-auto ul > li {
     color: #5b5858;
 }
 
-#navbar .ec-bell {
+#ec-navbar .ec-bell {
     color: #ff8f00;
 }
 
-
-
-#ec-main-top {
-    background-color: var(--ec-bg-main);
-    color: white;
+#ec-navbar .col-auto li > a {
+    all: unset;
 }
 
 /*
@@ -48,7 +46,6 @@ STYLE CSS
 -------------------------------------------> MAIN
 */
 
-
 #ec-main-container {
     height: calc(100vh - var(--ec-size-header));
 }
@@ -59,16 +56,23 @@ STYLE CSS
 
 #ec-sidebar {
     background-color: var(--ec-bg-sidebar);
-    background-image: url('/img/sidebar-bg.png ');
+    background-image: url('/img/sidebar-bg.png');
+}
+
+#ec-sidebar li > a {
+    all: unset;
 }
 
 /*
 ------------------------------------------- main right
-*/
-
-/*
 ------------------------------------------- main right top
 */
+
+#ec-main-top {
+    background-color: var(--ec-bg-main);
+    color: white;
+}
+
 .ec-btn {
     margin: 4px;
     border: 1px solid white;
@@ -79,8 +83,13 @@ STYLE CSS
     display: inline-block;
 }
 
+#ec-main-top li > a {
+    all: unset;
+}
+
 .breadcrumb-item.breadcrumb-item::before {
     padding: 0 8px;
+    color: white;
 }
 
 .ec-w-30 {
@@ -91,19 +100,15 @@ STYLE CSS
     width: 10%;
 }
 
-
 /*
 ------------------------------------------- main right bottom
-*/
-
-/*
 ------------------------------------------- main right bottom left
 */
 
-/*
-------------------------------------------- main right bottom right
-*/
+#ec-main-bottom th > a {
+    all: unset;
+}
 
 /*
--------------------------------------------> MAIN
+-------------------------------------------> /MAIN
 */
