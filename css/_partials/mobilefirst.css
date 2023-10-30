@@ -63,6 +63,10 @@ STYLE CSS
     all: unset;
 }
 
+#ec-sidebar ul > li:hover {
+    background-color: var(--ec-color-icon);
+}
+
 /*
 ------------------------------------------- main right
 ------------------------------------------- main right top
